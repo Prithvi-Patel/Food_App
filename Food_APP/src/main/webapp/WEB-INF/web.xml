@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" version="6.0">
+    <display-name>Food_APP</display-name>
+
+    <welcome-file-list>
+<!-- <welcome-file>Login.jsp</welcome-file>  -->
+	<welcome-file>restaurant</welcome-file>
+    </welcome-file-list>
+
+<!--  
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.Food_App.Servlets.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.Food_App.Servlets.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+    -->
+</web-app>
